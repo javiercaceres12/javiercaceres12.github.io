@@ -1,0 +1,141 @@
+body{
+    background: url(../img/AdobeStock_308697506.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/*NAV*/
+
+.NAV{
+    background-color: white !important;
+}
+
+.NAV-A{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px !important;
+    color: white !important;;
+}
+
+/* INDEX PRECENTACION */
+
+.TEXTO{
+    margin-top: 80px !important;
+}
+
+.TXT1{
+    color: rgb(255, 255, 255);
+    font-size: 58px;
+    font-family: 'Monoton', cursive;
+}
+
+.TXT2{
+    font-size: 35px;
+    color: rgb(148, 140, 140);
+    font-family: 'Monoton', cursive;
+}
+
+.SPN1{
+    color: rgb(236, 126, 0);
+}
+
+.SPN2{
+    color: rgba(23, 201, 0, 0.952);
+}
+
+.BOTON{
+    background-color: rgb(110, 110, 212);
+    box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    border: solid 4px black;
+    border-radius: 30px;
+    width: 205px;
+    height: 55px;
+}
+
+.ICONOS{
+    text-decoration: none;
+}
+
+/* SKILLS */
+
+.TITLE-SKILL{
+    color: rgb(236, 126, 0);
+    font-size: 50px;
+    font-family: 'Monoton', cursive;
+}
+
+.PROYECTO{
+    border: 4px solid black;
+}
+
+/*EDUCACION*/
+
+.BOX-EDUCACION{
+    color: white;
+}
+
+.TITLE-EDU{
+    font-family: 'Monoton', cursive;
+    color: rgb(236, 126, 0);
+    font-size: 30px;
+}
+
+.TXT-EDU{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.CERTIFICADOS{
+    border: 4px solid black;
+}
+
+/*FORMULARIO*/
+
+.contenedor-form{
+    font-family: 'Monoton', cursive;
+    display: grid;
+    color: rgb(236, 126, 0);
+    place-items: center;
+}
+
+.input{
+    border: solid 3px black;
+    font-family: 'Bebas Neue', cursive;
+    width: 300px;
+    height:40px;
+    text-align: center;
+}
+
+.textarea{
+    font-family: 'Bebas Neue', cursive;
+    border: solid 3px black;
+    width: 300px;
+    height: 200;
+}
+
+/* SOBRE MI */
+
+.FOTO{
+    width: 250px;
+    height: 250px;
+    border: 6px solid black;
+    border-radius: 50%;
+}
+
+.SOBRE-MI{
+    padding: 12px;
+    border-radius: 20px;
+    border: 6px solid black;
+    background: linear-gradient(90deg, rgba(39,2,99,1) 28%, rgba(13,130,97,1) 100%);
+    font-family: 'Rampart One', cursive;
+}
+
+/* RESPONSIVO */
+
+@media screen and (max-width: 980px) and (min-width: 821px) {  
+    .MN{
+        display: none !important;
+    }
+}  

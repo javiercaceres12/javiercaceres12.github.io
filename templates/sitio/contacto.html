@@ -1,0 +1,46 @@
+{% include 'sitio/cabezera.html' %}
+
+<div class="row justify-content-center align-items-center g-2">
+    <div class="col-md-6">
+        <form class="contenedor-form text-center mt-3" action="https://formsubmit.co/javierdanielcaceres12@gmail.com" method="POST">
+            
+            <div class="mb-1">
+                <label class="LABEL-CONT mb-2" for="nombre">NOMBRE</label> <br>
+                <input class="input" name="nombre" type="text" required>
+            </div>
+
+            <div class="mb-1">
+                <label class="LABEL-CONT mb-2" for="email">EMAIL</label> <br>
+                <input class="input" name="email" type="email" required>
+            </div>
+
+            <div class="mb-1">
+                <label class="LABEL-CONT mb-2" for="numero">CELULAR</label> <br>
+                <input class="input" name="telefone" type="tel" required>
+            </div>
+
+            <div class="mb-1">
+                <label class="LABEL-CONT mb-2" for="mensaje">MENSAJE</label> <br>
+                <textarea class="textarea" name="mensaje" cols="20" rows="10" required></textarea>
+            </div>
+
+            <div class="mt-1">
+                <input class="btn btn-primary" type="submit" placeholder="ENVIAR">
+            </div>
+
+        </form>
+        
+        <div>
+
+        </div>
+
+        <a target="_blank" href="http://wa.me/541169351191"> <img width="75" height="75"  src="img/whatsapp.png" alt="imagen de whatsap"> </a>
+    </div>
+
+    <div class="col-md-6">
+
+    </div>
+
+</div>
+
+{% include 'sitio/pie.html' %}
